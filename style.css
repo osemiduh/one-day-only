@@ -1,0 +1,53 @@
+.box{
+    background-color: rgb(211, 210, 210);
+    height: 16%;
+    width: 8%;
+    position: absolute;
+}
+
+.container{
+    padding-top: 50px;
+    padding-bottom: 190px;
+   
+}
+
+.title{
+    padding-top: 150px;
+    padding-bottom: 0%;
+}
+
+  input[type=text] {
+    width: 75%;
+    box-sizing: border-box;
+    background-color: #d6d6d6;
+    border-radius: 0px;
+  }
+
+  .button {
+    width: 75%;
+    box-sizing: border-box;
+    border-radius: 0px;
+    background-color: rgb(118, 119, 118);
+    justify-content: center;
+  }
+  .subtitle{
+    background-color: rgb(211, 210, 210);
+    height: 500px;
+
+    }
+
+a {
+    color: rgb(99, 96, 98);
+  }
+
+  .form-error {
+      color: red;
+  }
+
+  .form-success {
+      color: green;
+  }
+
+  .input-error {
+      box-shadow: 0 0 5px red;
+  }
