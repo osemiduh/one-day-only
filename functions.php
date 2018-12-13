@@ -7,7 +7,7 @@ if (isset($_POST['submit'])){
 
     $errorEmpty = false;
     $errorEmail = false;
-
+//Validate forms
     if (empty($first_name) || empty($last_name) || empty($email)){
         echo "<span class='form-error'>Fill in all fields!</span>";
         $errorEmpty = true;
@@ -77,8 +77,8 @@ else {
              <script>
                 $("#first-name, #last-name, #e-mail").removeClass("input-error");
                 
-                 var errorEmpty = "<?php echo $errorEmpty; ?>";
-                 var errorEmail = "<?php echo $errorEmail; ?>";
+                    var errorEmpty = "<?php echo $errorEmpty; ?>";
+                        var errorEmail = "<?php echo $errorEmail; ?>";
 
                  if (errorEmpty == true){
                      $("#first-name, #last-name, #e-mail").addClass("input-error");
@@ -90,4 +90,4 @@ else {
                  if(errorEmpty == false && errorEmail == false){
                     $("#first-name, #last-name, #e-mail").val("");
                  }
-             </script>
+             </script>s
